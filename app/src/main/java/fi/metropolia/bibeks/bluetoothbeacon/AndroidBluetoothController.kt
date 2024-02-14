@@ -54,6 +54,10 @@ class AndroidBluetoothController(
         bluetoothAdapter?.cancelDiscovery()
     }
 
+    override fun startBluetoothServer() {
+        TODO("Not yet implemented")
+    }
+
     override fun release() {
         context.unregisterReceiver(foundDeviceReceiver)
     }
